@@ -108,10 +108,10 @@ private List<QuestionModel> questionList;
     }
 
     private void addQuestions() {
-        questionList.add(new QuestionModel("Quel est le plus grand animal sur Terre?","Le lion","La girafe","l'éléphant","Le chameau",2));
-        questionList.add(new QuestionModel("Quel est le nombre d’yeux d’une abeille?"," Cinq yeux","Deux yeux","Sept yeux","trois yeux ",1));
-        questionList.add(new QuestionModel("Quel est l'animal qui a le plus de mémoire ?","L'éléphant","Le chameau","La chevre","Le chien",1));
-        questionList.add(new QuestionModel("Comment les papillons portent-ils leur trompe au repos ?","Tendue","Coudée","Ouverte","Enroulée",4));
-        questionList.add(new QuestionModel("À quel animal les îles Canaries doivent-elles leur nom ?","À la caille","Au canari","Au chien","Au canard",3));
+        questionList.add(new QuestionModel("Que signifie PHP ?","Personal Home Page","Hypertext Preprocessor","Pretext Hypertext Processor","Preprocessor Home Page",2));
+        questionList.add(new QuestionModel("Les fichiers PHP ont l’extension … ?"," .html",".xml",".php",".py ",3));
+        questionList.add(new QuestionModel("Lequel des éléments suivants n’est pas un concept POO en Java ?","Héritage","Encapsulation","Polymorphisme","Compilation",4));
+        questionList.add(new QuestionModel("HTML est considéré comme ______ ?","Langage de programmation","Langage POO","Langage de haut niveau","Langage de balisage",4));
+        questionList.add(new QuestionModel(" HTML a été proposé pour la première fois l’année ____ ?","2020","1990","2000","1995",2));
     }
 }
